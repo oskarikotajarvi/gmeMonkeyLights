@@ -1,0 +1,25 @@
+{
+  "name": "monkeDiamondBanana",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/cheerio": "^0.22.25",
+    "@types/dotenv": "^8.2.0",
+    "@types/got": "^9.6.11",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.3"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.5",
+    "dotenv": "^8.2.0",
+    "got": "^11.8.2",
+    "node-tradfri-client": "^2.2.0"
+  }
+}
