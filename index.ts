@@ -65,10 +65,10 @@ const connectToGateway = async () => {
 }
 
 connectToGateway().then(() => {
+    const light = lightBulbs[65539].lightList[0];
     let oldStonk = 0;
     setInterval( async () => {
         const newStonk = await findBanana();
-        const light = lightBulbs[65539].lightList[0];
 
         if (newStonk) {
             if (newStonk > oldStonk) {
